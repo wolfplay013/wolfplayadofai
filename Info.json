@@ -1,11 +1,10 @@
 {
-  "Id": "MyAdofaiMod",
-  "DisplayName": "My ADOFAI Mod",
-  "Author": "<fill in>",
-  "Version": "$VERSION",
+  "Id": "wolfplayadofai",
+  "DisplayName": "WolfPlay Mod",
+  "Author": "WolfPlay",
+  "Version": "1.0.0",
   "ManagerVersion": "0.22.14.0",
-  "AssemblyName": "MyAdofaiMod.dll",
-  "EntryMethod": "MyAdofaiMod.Startup.Load",
-  "HomePage": "<fill in or delete>",
-  "Repository": "<fill in or delete>"
+  "AssemblyName": "wolfplayadofai.dll",
+  "EntryMethod": "wolfplayadofai.Startup.Load",
+  "HomePage": "https://github.com/wolfplay013"
 }

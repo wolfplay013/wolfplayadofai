@@ -3,7 +3,7 @@ using HarmonyLib;
 using UnityModManagerNet;
 
 // TODO: Rename this namespace to your mod's name.
-namespace MyAdofaiMod
+namespace wolfplayadofai
 {
     /// <summary>
     /// The main class for the mod. Call other parts of your code from this

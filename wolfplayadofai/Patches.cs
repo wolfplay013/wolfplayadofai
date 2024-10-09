@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 
 // TODO: Rename this namespace to your mod's name.
-namespace MyAdofaiMod
+namespace wolfplayadofai
 {
     /// <summary>
     /// Add all of your <see cref="HarmonyPatch"/> classes here. If you find
@@ -13,12 +13,5 @@ namespace MyAdofaiMod
         /// <summary>
         /// Example patch that logs anytime the user presses a key.
         /// </summary>
-        [HarmonyPatch(typeof(scrController), "CountValidKeysPressed")]
-        private static class ExamplePatch
-        {
-            public static void Postfix(int __result) {
-                MainClass.Logger.Log($"User pressed {__result} key(s).");
-            }
-        }
     }
 }
